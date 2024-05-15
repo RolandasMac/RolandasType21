@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>11_3_Penktadienis</title>
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <script type="module" src="./js/mainScript.js" defer></script>
+</head>
+<body>
+    <h1 class="text-center">2024-05-10</h1>
+    <div class="container">
+        <div class="header d-flex justify-content-between border">
+            <div class="leftPanel">
+                <label for="money">Money:</label>
+                <span id="money">100</span>
+                <span>€</span>
+            </div>
+            <div class="buttonsPanel">
+                <button id="peopleShopBtn">People shop</button>
+                <button id="upgradeShopBtn">Upgrade shop</button>
+            </div>
+        </div>
+<!--    Main game page    -->
+        <div class="mainGame border" id="mainGame">
+            <h2 class="text-center">Main game</h2>
+
+            <div class="gameBody border d-flex">
+                <div class="ownedPeopleTbl border" >
+                    <h4>Owned people</h4>
+                    <div class="d-flex flex-wrap" id="ownedPeopleTbl">
+
+                    </div>
+                </div>
+                <div class="rightSide d-flex flex-column">
+                    <div class="lootingPeopleTbl border" id =lootingPeopleTbl>
+                        <h4>Looting</h4>
+<!--                        <button id="getList">Gel list</button>-->
+                    </div>
+                    <div class="itemInventory border">
+                        <h4>Inventory</h4>
+                        <div class="inventoryTbl" id="inventoryTbl">
+                            <h4 id="itemsAmount">0</h4>
+                            <h4 id="itemsPrice">0</h4>
+                                <div id="itemsTbl" class="d-flex flex-wrap gap-1">
+<!--                                    <div class="item border">-->
+<!--                                        <span>icon</span>-->
+<!--                                        <div>-->
+<!--                                            <label for="price">Price:</label>-->
+<!--                                            <span id="price">5</span>-->
+<!--                                        </div>-->
+<!--                                    </div>-->
+                                </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+<!--    People shop page    -->
+        <div class="peopleShop d-none border " id="peopleShop">
+            <div class="d-flex justify-content-end">
+                <h2 class="m-auto">People shop</h2>
+
+            </div>
+            <div class="d-flex flex-wrap gap-1" id="peopleShopPlace">
+<!--                <div class="oneMan border p-2 ">-->
+<!--                    <div class="searchTime">-->
+<!--                        <label for="time">Search time</label>-->
+<!--                        <span id="time">5</span>-->
+<!--                    </div>-->
+<!--                    <div class="inventory">-->
+<!--                        <label for="inventory">Inventory</label>-->
+<!--                        <span id="inventory">5</span>-->
+<!--                    </div>-->
+<!--                    <div class="price">-->
+<!--                        <label for="price">Price</label>-->
+<!--                        <span id="price">5</span>-->
+<!--                    </div>-->
+<!--                    <button>Buy</button>-->
+<!--                </div>-->
+            </div>
+        </div>
+<!--    Upgrade shop page    -->
+        <div class="upgradeShop d-none border" id="upgradeShop">
+            <div class="d-flex justify-content-end">
+                <h2 class="m-auto">Upgrade shop</h2>
+
+            </div>
+            <div class="d-flex flex-wrap gap-1" id="upgradeShopPlace">
+<!--                <div class="oneUpgradeItem border">-->
+<!--                    <div class="name">-->
+<!--                        <label for="name">Upgrade:</label>-->
+<!--                        <span id="name">5</span>-->
+<!--                    </div>-->
+<!--                    <div class="value">-->
+<!--                        <label for="value">Upgrade amount</label>-->
+<!--                        <span id="value">1</span>-->
+<!--                    </div>-->
+<!--                    <div class="price">-->
+<!--                        <label for="price">Price:</label>-->
+<!--                        <span id="price">500</span>-->
+<!--                    </div>-->
+<!--                </div>-->
+            </div>
+        </div>
+    </div>
+</body>
+</html>

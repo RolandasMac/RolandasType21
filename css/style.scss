@@ -1,0 +1,25 @@
+//  Testas
+
+h1{
+  color: red;
+}
+//******************
+
+
+
+.border{
+  border: 1px solid black;
+}
+.gameBody{
+  display: flex;
+}
+.ownedPeopleTbl, .rightSide{
+  flex: 1;
+}
+.oneMan, h4 {
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
